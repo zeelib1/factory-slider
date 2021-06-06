@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Factory - slider</title>
+</head>
+
+<body>
+    <div class="slider-wrapper">
+        <div class="slider-container">
+            <!-- Header -->
+            <header>
+                <div class="box-1"></div>
+                <div class="box-2">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, necessitatibus!</p>
+                    <button onclick="hideOverflow()" id="hide-overflow">Hide Overflow</button>
+
+                </div>
+            </header>
+            <!-- Carousel/Slider with two rows -->
+            <div class="top-row carousel">
+                <img class="img animate slider-item image-slider-2" src="./img/slider-image-7.jpg" alt="content">
+                <img class="img animate slider-item image-slider-3" src="./img/slider-image-6.jpg" alt="content">
+                <img class="img animate slider-item image-slider-4" src="./img/slider-image-9.jpg" alt="content">
+                <img class="img animate slider-item image-slider-5" src="./img/slider-image-8.jpg" alt="content">
+                <img class="img animate slider-item image-slider-6" src="./img/slider-image-5.jpg" alt="content">
+            </div>
+            <div class="bottom-row carousel">
+                <img class="img-2 animate slider-item animate image-slider-7" src="./img/slider-image-11.jpg"
+                    alt="content">
+                <img class="img-2 animate slider-item animate image-slider-8" src="./img/slider-image-4.jpg"
+                    alt="content">
+                <img class="img-2 animate slider-item animate image-slider-9" src="./img/slider-image-1.jpg"
+                    alt="content">
+                <img class="img-2 animate slider-item animate image-slider-10" src="./img/slider-image-2.jpg"
+                    alt="content">
+                <img class="img-2 animate slider-item animate image-slider-11" src="./img/slider-image-3.jpg"
+                    alt="content">
+            </div>
+            <!-- Sidebar - title and text box -->
+            <div class="right-copy">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                    aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                    esse molestie consequat.</p>
+            </div>
+            <!-- Footer -->
+            <footer>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, maxime.</p>
+            </footer>
+        </div>
+        <!-- Arrow buttons - next and previous image -->
+        <div class="arrows-box controls">
+            <div id="left" class="left-arrow" onclick="left(this)">
+            </div>
+
+            <div id="right" onclick="right(this)" class="right-arrow">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

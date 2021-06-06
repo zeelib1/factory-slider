@@ -1,0 +1,367 @@
+/*************************** Root configuration - Factory slider ******************************/
+
+:root {
+    font-size: calc(1em + 0.5vw);
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/******************************* Carousel wrapper ********************/
+
+.slider-wrapper {
+    position: relative;
+    width: 1920px;
+    height: 730px;
+    background: #FFFFFF;
+}
+
+/*********************************** Columns *********************************/
+
+.slider-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    position: absolute;
+    width: 941px;
+    height: 730px;
+    right: 489px;
+     top: calc(60% - 730px/2);
+    mix-blend-mode: normal;
+}
+
+/********************************* Header boxes ********************************/
+
+header .box-1 {
+    position: absolute;
+    width: 621px;
+    height: 100px;
+    left: 320px;
+    top: 0px;
+    background: #DDDDDD;
+    border-radius: 0px 0px 5px 5px;
+}
+
+header .box-2 {
+    position: absolute;
+    width: 301px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #DDDDDD;
+    border-radius: 0px 0px 5px 5px;
+}
+
+header .box-2 p {
+    position: absolute;
+    width: 245px;
+    height: 18px;
+    left: 400px;
+    top: 39px;
+    font-family: HelveticaNeue;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+/****************************** Footer *******************************************/
+
+footer {
+    width: 100%;
+    position: absolute;
+    height: 100px;
+    bottom: 0px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    color: lightgray;
+    font-size: 0.875em;
+}
+
+/************************ Right copy box - title and text ****************************/
+
+.right-copy {
+    position: absolute;
+    width: 301px;
+    height: 296px;
+    top: 100px;
+    grid-column: 9 / span 4;
+    background: white;
+}
+
+.right-copy h1 {
+    position: absolute;
+    width: 300.93px;
+    height: 120px;
+    left: 0px;
+    top: 45px;
+    padding: 1em;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.2px;
+    color: #134880;
+}
+
+.right-copy p {
+    position: absolute;
+    width: 300.93px;
+    height: 156px;
+    left: 0px;
+    top: 160px;
+    padding: 1em;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.2px;
+    color: #484A4C;
+}
+
+/************************** TOP ROW - General */
+
+.top-row {
+    position: absolute;
+    width: 1230px;
+    height: 200px;
+    left: -43%;
+    top: 160px;
+    display: flex;
+}
+
+/****************************Top-row specific images ***************************/
+
+.image-slider-6 {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: 970px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.image-slider-5 {
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    left: 780px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.image-slider-4 {
+    position: absolute;
+    width: 220px;
+    height: 200px;
+    left: 550px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.image-slider-3 {
+    position: absolute;
+    width: 120px;
+    height: 200px;
+    left: 420px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.image-slider-2 {
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    left: 230px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.image-slider-1 {
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    left: 30px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+/*********************** BOTTOM ROW - General **************************************/
+
+.bottom-row {
+    display: flex;
+    position: absolute;
+    width: 1080px;
+    height: 200px;
+    left: -46%;
+    bottom: 160px;
+}
+
+/******************** Bottom row - image gallery - specific images ***********************************/
+
+.image-slider-11 {
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    left: 900px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.image-slider-10 {
+    position: absolute;
+    width: 120px;
+    height: 200px;
+    left: 770px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.image-slider-9 {
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    left: 500px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.image-slider-8 {
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    left: 310px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.image-slider-7 {
+    position: absolute;
+    width: 210px;
+    height: 200px;
+    left: 90px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+/************************************* Arrows box ********************************/
+
+.arrows-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 80px;
+    height: 130px;
+    right: 800px;
+    bottom: 150px;
+}
+
+/************************************* Specific left/right arrow *****************/
+
+.left-arrow {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 70px;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    background: url('./img/arrow-gray-left.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.left-arrow:hover {
+    border: 1px solid #134880;
+    background: url('./img/arrow-blue-left.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.left-arrow img {
+    position: absolute;
+    width: 9.98px;
+    height: 16px;
+    left: 25px;
+    top: 22px;
+}
+
+.right-arrow {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    background: url('./img/arrow-gray-right.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.right-arrow:hover {
+    border: 1px solid #134880;
+    background: url('./img/arrow-blue-right.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.right-arrow img {
+    position: absolute;
+    width: 9.98px;
+    height: 16px;
+    left: 25px;
+    top: 22px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/********************************** Image(s) animation *****************************/
+
+.animate {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+/*********************************** Starting position - images  ********************/
+
+.slider-item {
+    transform: translate(-200px);
+}
+/****************** toggle button added for overflow demonstration purposes **/
+
+.slider-container-overflow {
+    overflow: hidden;
+}
+#hide-overflow {
+    border: none;
+    border-radius: 5px;
+    padding: 0.45em 1em;
+    background-color: #134880;
+    color: white;
+    margin-left: 0.5em;
+}
